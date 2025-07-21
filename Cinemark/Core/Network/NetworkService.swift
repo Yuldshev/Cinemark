@@ -7,11 +7,16 @@ protocol NetworkServiceProtocol {
 
 final class NetworkService: NetworkServiceProtocol {
   static let shared = NetworkService()
-  private init() {}
+  
+  let session: Session
+  
+  private init() {
+    self.session = Session(eventMonitors: [NetworkLogger()])
+  }
   
   func request<T>(_ endpoint: APIEndpoints) async throws -> T where T : Decodable {
     do {
-      return try await AF.request(endpoint)
+      return try await session.request(endpoint)
         .validate()
         .serializingDecodable(T.self)
         .value

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		133891D02E2E3B7D00EE46B4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 133891CF2E2E3B7D00EE46B4 /* Kingfisher */; };
 		1392B1552E2D03C900FADCE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1392B1542E2D03C900FADCE8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +30,29 @@
 		1392B15E2E2D10D000FADCE8 /* Exceptions for "Cinemark" folder in "Cinemark" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Core/Network/Secrets.xcconfig,
 				Info.plist,
 			);
 			target = 1392B13C2E2CE6C000FADCE8 /* Cinemark */;
 		};
+		1392B18D2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "CinemarkTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Network/JSON/MovieTopRatedResponse.json,
+			);
+			target = 1392B1762E2D323C00FADCE8 /* CinemarkTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		1392B18E2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "Compile Sources" phase from "CinemarkTests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 1392B1732E2D323C00FADCE8 /* Sources */;
+			membershipExceptions = (
+				Network/JSON/MovieTopRatedResponse.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1392B13F2E2CE6C000FADCE8 /* Cinemark */ = {
@@ -46,6 +65,10 @@
 		};
 		1392B1782E2D323C00FADCE8 /* CinemarkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1392B18D2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "CinemarkTests" target */,
+				1392B18E2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "Compile Sources" phase from "CinemarkTests" target */,
+			);
 			path = CinemarkTests;
 			sourceTree = "<group>";
 		};
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133891D02E2E3B7D00EE46B4 /* Kingfisher in Frameworks */,
 				1392B1552E2D03C900FADCE8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +133,7 @@
 			name = Cinemark;
 			packageProductDependencies = (
 				1392B1542E2D03C900FADCE8 /* Alamofire */,
+				133891CF2E2E3B7D00EE46B4 /* Kingfisher */,
 			);
 			productName = Cinemark;
 			productReference = 1392B13D2E2CE6C000FADCE8 /* Cinemark.app */;
@@ -145,7 +170,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					1392B13C2E2CE6C000FADCE8 = {
 						CreatedOnToolsVersion = 16.3;
@@ -158,16 +183,18 @@
 				};
 			};
 			buildConfigurationList = 1392B1382E2CE6C000FADCE8 /* Build configuration list for PBXProject "Cinemark" */;
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 1392B1342E2CE6C000FADCE8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				1392B1532E2D03C900FADCE8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				133891CE2E2E3B7D00EE46B4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1392B13E2E2CE6C000FADCE8 /* Products */;
@@ -230,6 +257,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -294,6 +322,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -366,6 +395,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,6 +431,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +458,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WVBG69A9A;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +483,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WVBG69A9A;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +531,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		133891CE2E2E3B7D00EE46B4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
 		1392B1532E2D03C900FADCE8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -509,6 +550,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		133891CF2E2E3B7D00EE46B4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 133891CE2E2E3B7D00EE46B4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		1392B1542E2D03C900FADCE8 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1392B1532E2D03C900FADCE8 /* XCRemoteSwiftPackageReference "Alamofire" */;

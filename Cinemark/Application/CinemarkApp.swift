@@ -4,7 +4,7 @@ import SwiftUI
 struct CinemarkApp: App {
   var body: some Scene {
     WindowGroup {
-      EmptyView()
+      TestView()
     }
   }
 }

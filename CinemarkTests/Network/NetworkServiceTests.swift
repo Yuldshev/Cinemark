@@ -17,10 +17,10 @@ final class NetworkServiceTests: XCTestCase {
   
   //MARK: - Tests
   func test_request_popularMovies_success() async throws {
-    let expectedResponse: ResponseDTO<MovieDTO> = try loadJSON(from: "MoviePopularResponse.json")
+    let expectedResponse: ResponseDTO<Movie> = try loadJSON(from: "MoviePopularResponse.json")
     sut.result = .success(expectedResponse)
     
-    let response: ResponseDTO<MovieDTO> = try await sut.request(.moviePopular(page: 1))
+    let response: ResponseDTO<Movie> = try await sut.request(.moviePopular(page: 1))
     
     XCTAssertEqual(response.page, 1)
     XCTAssertEqual(response.results.count, 20)
@@ -28,12 +28,24 @@ final class NetworkServiceTests: XCTestCase {
     XCTAssertEqual(response.results.last?.title, "З-О-М-Б-И 4: Рассвет вампиров")
   }
   
+  func test_request_topRatedMovies_success() async throws {
+    let expectedResponse: ResponseDTO<Movie> = try loadJSON(from: "MovieTopRatedResponse.json")
+    sut.result = .success(expectedResponse)
+    
+    let response: ResponseDTO<Movie> = try await sut.request(.movieTopRated(page: 1))
+    
+    XCTAssertEqual(response.page, 1)
+    XCTAssertEqual(response.results.count, 20)
+    XCTAssertEqual(response.results.first?.title, "Побег из Шоушенка")
+    XCTAssertEqual(response.results.last?.title, "Могила светлячков")
+  }
+  
   func test_request_failure_error() async {
     let expectedError = NetworkError.serverError(statusCode: 500)
     sut.result = .failure(expectedError)
     
     do {
-      let _: ResponseDTO<MovieDTO> = try await sut.request(.moviePopular(page: 1))
+      let _: ResponseDTO<Movie> = try await sut.request(.moviePopular(page: 1))
       XCTFail("Expected to throw an error, but dit not.")
     } catch {
       XCTAssertEqual(error as? NetworkError, expectedError)
@@ -45,7 +57,7 @@ final class NetworkServiceTests: XCTestCase {
     sut.result = .failure(expectedError)
     
     do {
-      let _: ResponseDTO<MovieDTO> = try await sut.request(.moviePopular(page: 1))
+      let _: ResponseDTO<Movie> = try await sut.request(.moviePopular(page: 1))
       XCTFail("Expected to throw an error, but dit not.")
     } catch {
       XCTAssertEqual(error as? NetworkError, expectedError)
