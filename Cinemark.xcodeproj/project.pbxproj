@@ -10,8 +10,19 @@
 		1392B1552E2D03C900FADCE8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1392B1542E2D03C900FADCE8 /* Alamofire */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1392B17B2E2D323C00FADCE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1392B1352E2CE6C000FADCE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1392B13C2E2CE6C000FADCE8;
+			remoteInfo = Cinemark;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1392B13D2E2CE6C000FADCE8 /* Cinemark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1392B1772E2D323C00FADCE8 /* CinemarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -33,6 +44,11 @@
 			path = Cinemark;
 			sourceTree = "<group>";
 		};
+		1392B1782E2D323C00FADCE8 /* CinemarkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CinemarkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1392B1742E2D323C00FADCE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1392B13F2E2CE6C000FADCE8 /* Cinemark */,
+				1392B1782E2D323C00FADCE8 /* CinemarkTests */,
 				1392B13E2E2CE6C000FADCE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1392B13D2E2CE6C000FADCE8 /* Cinemark.app */,
+				1392B1772E2D323C00FADCE8 /* CinemarkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +114,29 @@
 			productReference = 1392B13D2E2CE6C000FADCE8 /* Cinemark.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1392B1762E2D323C00FADCE8 /* CinemarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1392B17D2E2D323D00FADCE8 /* Build configuration list for PBXNativeTarget "CinemarkTests" */;
+			buildPhases = (
+				1392B1732E2D323C00FADCE8 /* Sources */,
+				1392B1742E2D323C00FADCE8 /* Frameworks */,
+				1392B1752E2D323C00FADCE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1392B17C2E2D323C00FADCE8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1392B1782E2D323C00FADCE8 /* CinemarkTests */,
+			);
+			name = CinemarkTests;
+			packageProductDependencies = (
+			);
+			productName = CinemarkTests;
+			productReference = 1392B1772E2D323C00FADCE8 /* CinemarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +149,11 @@
 				TargetAttributes = {
 					1392B13C2E2CE6C000FADCE8 = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					1392B1762E2D323C00FADCE8 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+						TestTargetID = 1392B13C2E2CE6C000FADCE8;
 					};
 				};
 			};
@@ -122,12 +175,20 @@
 			projectRoot = "";
 			targets = (
 				1392B13C2E2CE6C000FADCE8 /* Cinemark */,
+				1392B1762E2D323C00FADCE8 /* CinemarkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1392B13B2E2CE6C000FADCE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1392B1752E2D323C00FADCE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -144,7 +205,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1392B1732E2D323C00FADCE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1392B17C2E2D323C00FADCE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1392B13C2E2CE6C000FADCE8 /* Cinemark */;
+			targetProxy = 1392B17B2E2D323C00FADCE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1392B1462E2CE6C100FADCE8 /* Debug */ = {
@@ -342,6 +418,53 @@
 			};
 			name = Release;
 		};
+		1392B17E2E2D323D00FADCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WVBG69A9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinemark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinemark";
+			};
+			name = Debug;
+		};
+		1392B17F2E2D323D00FADCE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9WVBG69A9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinemark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinemark";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +482,15 @@
 			buildConfigurations = (
 				1392B1492E2CE6C100FADCE8 /* Debug */,
 				1392B14A2E2CE6C100FADCE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1392B17D2E2D323D00FADCE8 /* Build configuration list for PBXNativeTarget "CinemarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1392B17E2E2D323D00FADCE8 /* Debug */,
+				1392B17F2E2D323D00FADCE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
