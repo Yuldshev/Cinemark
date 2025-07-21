@@ -1,0 +1,407 @@
+{
+  "dates": {
+    "maximum": "2025-08-13",
+    "minimum": "2025-07-23"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "id": 1011477,
+      "original_language": "en",
+      "original_title": "Karate Kid: Legends",
+      "overview": "Молодой и талантливый каратист Ли Фонг из-за случившейся трагедии переезжает из Китая в США вместе с матерью. Ли нелегко расстаться с прошлой жизнью и адаптироваться к новой, требующей от него постоянной борьбы. Чтобы помочь новому другу, Ли записывается на соревнование по каратэ. Но понимает, что для выигрыша его умений недостаточно. Тогда его наставник мистер Хан обращается за помощью к Дэниелу Ларуссо, легендарному мастеру каратэ.",
+      "popularity": 368.281,
+      "poster_path": "/qzJ3iolWhBT7HeFR2nmaeURnROq.jpg",
+      "release_date": "2025-05-08",
+      "title": "Каратэ-пацан: Легенды",
+      "video": false,
+      "vote_average": 7.251,
+      "vote_count": 480
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/63RnEJRNzRDvi0Fv4jhrT2eh0fl.jpg",
+      "genre_ids": [
+        16,
+        28,
+        14,
+        53
+      ],
+      "id": 1311031,
+      "original_language": "ja",
+      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "overview": "",
+      "popularity": 387.6431,
+      "poster_path": "/rz1jMKpu4rq2wiKMyILF06aiSwP.jpg",
+      "release_date": "2025-07-18",
+      "title": "Истребитель демонов: Бесконечный замок",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oPgXVSdGR9dGwbmvIToOCMmsdc2.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 541671,
+      "original_language": "en",
+      "original_title": "Ballerina",
+      "overview": "Когда Ева была маленькой, вооруженные люди во главе с мужчиной по прозвищу Канцлер оставили её сиротой. Так девочка оказалась в криминальной семье «Русска рома» на попечении Директрисы нью-йоркской балетной школы, одновременно служащей академией наемных убийц. Не добившись успехов в балете, но боевые курсы окончив с отличием, Ева отправляется в Европу мстить за папу.",
+      "popularity": 336.554,
+      "poster_path": "/oKD6ggXEN1WGPPDiVAuOfdDLBNv.jpg",
+      "release_date": "2025-06-04",
+      "title": "Балерина",
+      "video": false,
+      "vote_average": 7.49,
+      "vote_count": 1082
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 1234821,
+      "original_language": "en",
+      "original_title": "Jurassic World Rebirth",
+      "overview": "Спустя 5 лет после завоевания мира юрского периода, экспедиция отправляется в изолированные экваториальные регионы, чтобы извлечь ДНК из 3-ёх огромных доисторических существ для революционного открытия в медицине.",
+      "popularity": 225.4012,
+      "poster_path": "/iIk5nWcHuqTMLrz1yrwIWcmwTOM.jpg",
+      "release_date": "2025-07-01",
+      "title": "Мир Юрского периода: Возрождение",
+      "video": false,
+      "vote_average": 6.372,
+      "vote_count": 717
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5esDYWV0NoFwqPa1iC0g9akqZo9.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1151031,
+      "original_language": "en",
+      "original_title": "Bring Her Back",
+      "overview": "После смерти отца сводные брат и сестра Энди и Пайпер отправляются к приёмной матери по имени Лора. Парень привык заботиться о слабовидящей сестре и через три месяца, когда ему исполнится 18, собирается оформить опеку. Хотя Лора, на первый взгляд, кажется заботливой и понимающей, она и её странный сын вызывают у Энди всё больше подозрений.",
+      "popularity": 118.1743,
+      "poster_path": "/bXUHpvzSevyjjKgyNt7cfdehhrR.jpg",
+      "release_date": "2025-05-28",
+      "title": "Верни её из мёртвых",
+      "video": false,
+      "vote_average": 7.417,
+      "vote_count": 288
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yAqL0makiGke5yYiVWpmBDSKIVP.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1278950,
+      "original_language": "en",
+      "original_title": "The Ritual",
+      "overview": "Одержимую дьяволом девушку пытаются спасти двое священников — постепенно теряющий веру Джозеф и терзаемый призраками прошлого Теофил. Чтобы дать отпор демонам, им предстоит объединиться и пройти через серию шокирующих обрядов, каждый из которых страшнее предыдущего.",
+      "popularity": 80.3102,
+      "poster_path": "/jY5P1zdmIFyNnNXuf55brFqmWpH.jpg",
+      "release_date": "2025-04-18",
+      "title": "Ритуал",
+      "video": false,
+      "vote_average": 5.962,
+      "vote_count": 105
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "id": 617126,
+      "original_language": "en",
+      "original_title": "The Fantastic Four: First Steps",
+      "overview": "1960-ые. Яркий ретро-футуристический мир. Рид Ричардс, Сью Шторм, Джонни Шторм и Бен Гримм сталкиваются с самым сложным испытанием в своей жизни. Им предстоит совмещать роли супергероев с силой семейных уз, чтобы защитить Землю от ненасытного космического бога Галактуса и его загадочного Вестника — Серебряного Сёрфера.",
+      "popularity": 75.2544,
+      "poster_path": "/xxu45NMhIidkRgTwl2kGUGs7Ld8.jpg",
+      "release_date": "2025-07-23",
+      "title": "Фантастическая Четвёрка: Первые Шаги",
+      "video": false,
+      "vote_average": 7.364,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hniP6c6Tss51qKc5vYMycDBDf9P.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 1083433,
+      "original_language": "en",
+      "original_title": "I Know What You Did Last Summer",
+      "overview": "Пятеро друзей становятся невольными виновниками автокатастрофы, в результате которой гибнет человек. Друзья принимают решение скрыть преступление и клянутся никогда не говорить о том, что произошло. Спустя год это трагическое событие напоминает о себе, когда таинственный убийца с крюком в руке пытается им отомстить. Чтобы остановить его, молодые люди обращаются за помощью к двум выжившим после похожей резни в Саутпорте в 1997 году.",
+      "popularity": 79.3652,
+      "poster_path": "/cpJBgkmsUVKsbkJYsJ1gkhqH4WV.jpg",
+      "release_date": "2025-07-16",
+      "title": "Я знаю, что вы сделали прошлым летом",
+      "video": false,
+      "vote_average": 5.783,
+      "vote_count": 60
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cfAGn86j4LYzRCKWSkXPnMxoru6.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 1406607,
+      "original_language": "zh",
+      "original_title": "戏台",
+      "overview": "",
+      "popularity": 56.0757,
+      "poster_path": "/wSFGtkoz8SW6yIgu1Xvxs584QQt.jpg",
+      "release_date": "2025-07-12",
+      "title": "戏台",
+      "video": false,
+      "vote_average": 10.0,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9whEVuKte4Qi0LI4TzPf7glinJW.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "id": 936108,
+      "original_language": "en",
+      "original_title": "Smurfs",
+      "overview": "Когда злые волшебники Разамель и Гаргамель похищают Папу Смурфа, Смурфетта возглавляет группу смурфиков и отправляется в реальный мир, чтобы спасти его.",
+      "popularity": 57.0531,
+      "poster_path": "/qvpeX4ROsxRgXpERY82pd77sZIC.jpg",
+      "release_date": "2025-06-30",
+      "title": "Смурфики в кино",
+      "video": false,
+      "vote_average": 7.239,
+      "vote_count": 23
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oGMqaaeMuZJx5xJDyCncgQFJUKR.jpg",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "id": 1130022,
+      "original_language": "en",
+      "original_title": "Sovereign",
+      "overview": "Отец-одиночка Джерри, испытывающий жизненные трудности, приобщает своего сына Джо к идеологии антиправительственного движения суверенных граждан и убеждает его, что законы и правила - лишь иллюзия, а свободу можно заполучить только самостоятельно. Постепенно взгляды Джерри полностью поглощают их обоих, и это приводит к противостоянию с местным начальником полиции, который защищает отвергаемые ими нормы.",
+      "popularity": 29.0328,
+      "poster_path": "/cSeu3t5wO7VlVmopyEEVpb8e858.jpg",
+      "release_date": "2025-07-11",
+      "title": "Свободные люди",
+      "video": false,
+      "vote_average": 6.711,
+      "vote_count": 19
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/icFWIk1KfkWLZnugZAJEDauNZ94.jpg",
+      "genre_ids": [
+        27,
+        18,
+        9648
+      ],
+      "id": 1232546,
+      "original_language": "en",
+      "original_title": "Until Dawn",
+      "overview": "Кловер с друзьями разыскивает свою пропавшую сестру и приезжает в глухомань, где та записала последнее видеопослание. Выехав из стены дождя, компания оказывается в пустынном странном доме посреди леса, где и решает переждать непогоду, но после захода солнца на них нападает жуткий детина в маске и всех убивает. Ребята тут же приходят в себя и понимают, что оказались во временной петле — теперь они вынуждены переживать эту ужасную ночь снова и снова.",
+      "popularity": 34.6866,
+      "poster_path": "/s00A7xz0CtnRO7jAXQxCKnVt3XB.jpg",
+      "release_date": "2025-04-23",
+      "title": "Дожить до рассвета",
+      "video": false,
+      "vote_average": 6.579,
+      "vote_count": 820
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yMatVGaUxw3Vi3Z0RsLetvcSYko.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        12
+      ],
+      "id": 896536,
+      "original_language": "en",
+      "original_title": "The Legend of Ochi",
+      "overview": "Девочка Юри родилась на гористом острове посреди океана. В здешних дремучих лесах водится много диких зверей, но самыми опасными считаются загадочные существа очи. Одни думают, что это лишь сказка для детей, другие считают их враждебными созданиями. Однажды Юри находит в лесу потерявшегося детеныша очи и решает вернуть его родителям.",
+      "popularity": 27.1238,
+      "poster_path": "/tKIRObB9Gwq0fnCDjapdz9zAmJz.jpg",
+      "release_date": "2025-04-18",
+      "title": "Очи",
+      "video": false,
+      "vote_average": 6.34,
+      "vote_count": 147
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        878
+      ],
+      "id": 569094,
+      "original_language": "en",
+      "original_title": "Spider-Man: Across the Spider-Verse",
+      "overview": "Майлз Моралес отправляется в приключение по мультивселенной вместе с Гвен Стейси и новой командой Людей-пауков, которым предстоит столкнуться с могущественным злодеем.",
+      "popularity": 23.9319,
+      "poster_path": "/hsGAxOqbH0UNpIJPMsVRA6dFf85.jpg",
+      "release_date": "2023-05-31",
+      "title": "Человек-паук: Паутина вселенных",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 7706
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lqwwGkwJHtz9QgKtz4zeY19YgDg.jpg",
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1136867,
+      "original_language": "en",
+      "original_title": "Materialists",
+      "overview": "Профессиональный брачный агент Люси убеждена, что знает о любви всё. Мастерски соединяя сердца, сама она остаётся убеждённой холостячкой. Но когда за ней начинает ухаживать обаятельный миллионер Рэнди, а на горизонте вновь появляется красавчик-бывший Джон, Люси понимает, что настоящая любовь не поддаётся никаким формулам и расчётам.",
+      "popularity": 25.0159,
+      "poster_path": "/9i5hJa4OZLWKXv8NOrpy3ogAcRu.jpg",
+      "release_date": "2025-06-12",
+      "title": "Материалистка",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 91
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hwlyY7LJdEFbCPaGNXiskKKmJ5X.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 1126166,
+      "original_language": "en",
+      "original_title": "Flight Risk",
+      "overview": "Маршал авиации, перевозящая преступника на маленьком самолете, оказывается в ловушке, когда подозревает, что их пилот не тот, за кого себя выдает.",
+      "popularity": 21.3378,
+      "poster_path": "/oifl3tfR9c4GhWwhJ8m0d6ummZH.jpg",
+      "release_date": "2025-01-22",
+      "title": "Особо опасный пассажир",
+      "video": false,
+      "vote_average": 6.048,
+      "vote_count": 850
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/w3RDV3pSpxN0C2DZ4Xpw4o5LWpI.jpg",
+      "genre_ids": [
+        12,
+        35
+      ],
+      "id": 1137350,
+      "original_language": "en",
+      "original_title": "The Phoenician Scheme",
+      "overview": "1950 год, где-то на Ближнем Востоке. Экстравагантный магнат Жа-Жа Корда переживает череду покушений и затевает грандиозный трансконтинентальный проект «Финикийская схема». В стремлении защитить свою империю, Корда назначает единственной наследницей дочь Лисл, вытащив её из монастыря. Им предстоит столкнуться с многочисленными врагами, государственными интригами и сразиться за будущее семьи, бизнеса и всей Финикии.",
+      "popularity": 24.087,
+      "poster_path": "/sgOjBiCjtE8lrrL444bGvKoTk8c.jpg",
+      "release_date": "2025-05-23",
+      "title": "Финикийская схема",
+      "video": false,
+      "vote_average": 6.763,
+      "vote_count": 398
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4zhpx2zUxJZvwiBfghOE25wCUWW.jpg",
+      "genre_ids": [
+        16,
+        35,
+        12
+      ],
+      "id": 1064307,
+      "original_language": "no",
+      "original_title": "Spermageddon",
+      "overview": "Симен и Камелла — два сперматозоида в мошонке фаната «Звездных войн». Они живут спокойно, пока их хозяин не находит себе девушку. Так Симен и Камелла отправляются в опасное путешествие до яйцеклетки возлюбленной хозяина через спермициды и противозачаточные.",
+      "popularity": 18.3036,
+      "poster_path": "/gMnSDjGQkY9WYBvzWtPz6ftn8o4.jpg",
+      "release_date": "2025-02-21",
+      "title": "Полный армагеддец",
+      "video": false,
+      "vote_average": 6.761,
+      "vote_count": 23
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jvpkBenB6hv19WWYVlaiow8zklq.jpg",
+      "genre_ids": [
+        10751,
+        35,
+        80,
+        12,
+        16
+      ],
+      "id": 1175942,
+      "original_language": "en",
+      "original_title": "The Bad Guys 2",
+      "overview": "",
+      "popularity": 21.7296,
+      "poster_path": "/93qP8vbG3TnsoeS485mwgRNz9ul.jpg",
+      "release_date": "2025-07-25",
+      "title": "Плохие парни 2",
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zViRwl3ySscZnbXZJ2Q9wq3SeUG.jpg",
+      "genre_ids": [
+        16,
+        878,
+        12,
+        10751
+      ],
+      "id": 698687,
+      "original_language": "en",
+      "original_title": "Transformers One",
+      "overview": "Действие разворачивается за три миллиарда лет до основных событий фильмов о трансформерах. Орион Пакс — простой рабочий на Кибертроне. Он трудится на благо общества роботов вместе со своим лучшим другом D-16. Однако все в жизни парней меняется, когда Кибертрон сталкивается с новой угрозой. Прайм Альфа Трион наделяет Ориона, D-16, а также их товарищей Бамблби и Элиту способностью трансформироваться. Орион берёт имя Оптимус Прайм и, как лидер команды автоботов, дает мощный отпор врагам. D-16 же решает на фоне конфликта возглавить армию десептиконов и захватить власть на Кибертроне. Он становится Мегатроном — будущим заклятым врагом Оптимуса Прайма.",
+      "popularity": 16.9778,
+      "poster_path": "/lcfOnii9C1Qd01BiEb5hhHh9u6e.jpg",
+      "release_date": "2024-09-11",
+      "title": "Трансформеры: Начало",
+      "video": false,
+      "vote_average": 8.1,
+      "vote_count": 1320
+    }
+  ],
+  "total_pages": 45,
+  "total_results": 897
+}

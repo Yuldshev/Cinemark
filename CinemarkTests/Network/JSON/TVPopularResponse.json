@@ -1,0 +1,434 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg",
+      "genre_ids": [
+        10767,
+        35
+      ],
+      "id": 22980,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Watch What Happens Live with Andy Cohen",
+      "overview": "",
+      "popularity": 674.872,
+      "poster_path": "/onSD9UXfJwrMXWhq7UY7hGF2S1h.jpg",
+      "first_air_date": "2009-07-16",
+      "name": "Watch What Happens Live with Andy Cohen",
+      "vote_average": 5.1,
+      "vote_count": 77
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hHMWfDlqKisD5zVcZfz3KEw5U3v.jpg",
+      "genre_ids": [
+        18,
+        10751
+      ],
+      "id": 50821,
+      "origin_country": [
+        "HU"
+      ],
+      "original_language": "hu",
+      "original_name": "Barátok közt",
+      "overview": "",
+      "popularity": 580.68,
+      "poster_path": "/kBBbSgNchtMvsgD6z1oI1RRluHP.jpg",
+      "first_air_date": "1998-10-26",
+      "name": "Среди друзей",
+      "vote_average": 3.1,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hlVfglhjnlCP5tp8hFvTQKQVaMp.jpg",
+      "genre_ids": [
+        10766
+      ],
+      "id": 11890,
+      "origin_country": [
+        "NL"
+      ],
+      "original_language": "nl",
+      "original_name": "Goede Tijden, Slechte Tijden",
+      "overview": "В центре драмы — история нескольких семейств, живущих в небольшом вымышленном городке: Альбертсов, Сандерсов, ван Хаутенов, де Йонгов. В сериале «Хорошие времена, плохие времена» поднимаются важные и неоднозначные темы, обычно нехарактерные для жанра мыльных опер: гомосексуализм и однополые браки, установление отцовства, наркомания, сложности отбывания наказания в тюрьме. Сериал «Хорошие времена, плохие времена» является самым продолжительным сериалом в истории нидерландского кинематографа.",
+      "popularity": 547.3249,
+      "poster_path": "/p1oXgtJ0q0wAcEp3tHA5DpiynxL.jpg",
+      "first_air_date": "1990-10-01",
+      "name": "Хорошие времена, плохие времена",
+      "vote_average": 5.342,
+      "vote_count": 19
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fgvM6m7gAd8kDAaLF16aflbOSAK.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1416,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Grey's Anatomy",
+      "overview": "В центре событий — молодая женщина-хирург Мередит Грей, дочь известного врача Эллис Грей. Она работает в городской больнице Сиэтла, и её коллеги, такие же начинающие врачи, как она. Хирурги оперируют и влюбляются, заводят истории болезни и служебные романы, хранят свои врачебные тайны, борются с осложнениями у пациентов и в собственной личной жизни. И зачастую отношения с противоположным полом волнуют их не меньше, чем вопрос приобретения ими профессионального опыта.",
+      "popularity": 423.0087,
+      "poster_path": "/9LIuxUjJ2Cc4DMXFRN2ReCMBKDD.jpg",
+      "first_air_date": "2005-03-27",
+      "name": "Анатомия страсти",
+      "vote_average": 8.223,
+      "vote_count": 10569
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iEg2LHsFV3vC6LywkBAL3c1n9PP.jpg",
+      "genre_ids": [
+        10767,
+        35
+      ],
+      "id": 61818,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Late Night with Seth Meyers",
+      "overview": "",
+      "popularity": 581.0706,
+      "poster_path": "/rw0QaegwgKbRoB2CZe2lfewltT9.jpg",
+      "first_air_date": "2014-02-25",
+      "name": "Поздней ночью с Сетом Майерсом",
+      "vote_average": 5.362,
+      "vote_count": 109
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 65701,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Good Mythical Morning",
+      "overview": "Шоу дуэта комиков Ретта Джеймса МакЛафлина и Чарльза Линкольна \"Линка\" Нила, которое содержит массу смеха и безумия и описывается цитатой: \"Мы делаем это, поэтому вам этого не надо\".",
+      "popularity": 671.081,
+      "poster_path": "/loeBGTlYv2ZIsGgGCk4ThZpcbZX.jpg",
+      "first_air_date": "2012-01-09",
+      "name": "С добрым мифическим утром",
+      "vote_average": 7.0,
+      "vote_count": 84
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "genre_ids": [
+        10763,
+        35
+      ],
+      "id": 2224,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Daily Show",
+      "overview": "\"Дневное шоу с Тревором Ноем\" - американская вечерняя сатирическая телевизионная программа, транслирующаяся каждый понедельник по четверг на Comedy Central и в Канаде The Comedy Network. Описывая себя как фальшивую новостную программу, \"Дневное шоу с Тревором Ноем\" привлекает свою комедию и сатиру из последних новостей, политических деятелей, медиа-организаций и, зачастую, аспектов самого шоу.",
+      "popularity": 542.0284,
+      "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+      "first_air_date": "1996-07-22",
+      "name": "Дневное шоу с Тревором Ноем",
+      "vote_average": 6.371,
+      "vote_count": 584
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5aE1kxWg6RhgQxJTXTxifv4uq7P.jpg",
+      "genre_ids": [
+        10759,
+        9648,
+        18
+      ],
+      "id": 93405,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "오징어 게임",
+      "overview": "Из-за нужды в деньгах сотни игроков принимают странное приглашение поучаствовать в детских соревнованиях. Их ждет заманчивый приз, но ставки смертельно высоки.",
+      "popularity": 503.3352,
+      "poster_path": "/vDppycTvnKItQZezcpxCi04ifli.jpg",
+      "first_air_date": "2021-09-17",
+      "name": "Игра в кальмара",
+      "vote_average": 7.866,
+      "vote_count": 16401
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4fVwc77cov2q9i0szzYhlkAaqza.jpg",
+      "genre_ids": [
+        35,
+        10759,
+        10762,
+        16,
+        10751
+      ],
+      "id": 34860,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "忍たま乱太郎",
+      "overview": "",
+      "popularity": 350.2591,
+      "poster_path": "/raKlXyICQBeTxYavErIRybR6g8d.jpg",
+      "first_air_date": "1993-04-10",
+      "name": "Мальчик-ниндзя Рантаро",
+      "vote_average": 6.4,
+      "vote_count": 19
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9daf0KXr3xUkMt2NCI0ZhDIZJEa.jpg",
+      "genre_ids": [
+        10766
+      ],
+      "id": 12415,
+      "origin_country": [
+        "ZA"
+      ],
+      "original_language": "af",
+      "original_name": "Egoli: Place of Gold",
+      "overview": "",
+      "popularity": 576.5878,
+      "poster_path": "/5X0SWyNJ5IjN9YSXlbHBOVMzh1G.jpg",
+      "first_air_date": "1992-04-06",
+      "name": "Egoli: Place of Gold",
+      "vote_average": 6.8,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kCd0rmnNwCd3sgupO9DqSi9aHa0.jpg",
+      "genre_ids": [
+        10767
+      ],
+      "id": 65270,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "라디오스타",
+      "overview": "",
+      "popularity": 407.0062,
+      "poster_path": "/ofo50w2DTFcPkOm3iguWGU3Y8cw.jpg",
+      "first_air_date": "2007-05-30",
+      "name": "라디오스타",
+      "vote_average": 7.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vgeDRVpSUa4Hvovg4C6dgm4dfUW.jpg",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "id": 112470,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Ici tout commence",
+      "overview": "",
+      "popularity": 445.0881,
+      "poster_path": "/x9HeaagUAyyGl1fQ6exQcpELBxP.jpg",
+      "first_air_date": "2020-11-02",
+      "name": "Ici tout commence",
+      "vote_average": 6.839,
+      "vote_count": 90
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rLbXHqHqnme6FIE0UtkV4LUI7pz.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 59941,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Tonight Show Starring Jimmy Fallon",
+      "overview": "Комедийное ток-шоу, каждый выпуск которого открывается монологом Фэллона и продолжается беседами со звездными гостями, забавными скетчами, играми с их участием, а также музыкальными выступлениями.",
+      "popularity": 372.5961,
+      "poster_path": "/if7ECoH4xaYw5S8gomNIEmtwTxP.jpg",
+      "first_air_date": "2014-02-17",
+      "name": "Ночное шоу с Джимми Фэллоном",
+      "vote_average": 5.843,
+      "vote_count": 343
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hqqdoXdrp4o8ZqADHVYIXwBkn3Y.jpg",
+      "genre_ids": [
+        10759,
+        16,
+        35,
+        10765,
+        10762,
+        10751
+      ],
+      "id": 65733,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "ドラえもん",
+      "overview": "Сериал повествует о коте-роботе по имени Дораэмон, который переместился во времени из XXII века, чтобы помочь школьнику по имени Нобита Ноби.",
+      "popularity": 448.0632,
+      "poster_path": "/9YqdMXlPTQGLIG67vqZdsPdPC4T.jpg",
+      "first_air_date": "2005-04-22",
+      "name": "Дораэмон",
+      "vote_average": 8.101,
+      "vote_count": 183
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sDoSavurRsckAldstpCvUs30A6P.jpg",
+      "genre_ids": [
+        35,
+        10764
+      ],
+      "id": 30801,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "1박 2일",
+      "overview": "",
+      "popularity": 464.1434,
+      "poster_path": "/aTixMf5OaKA50QNvcKv18X9SLjX.jpg",
+      "first_air_date": "2007-08-05",
+      "name": "1박 2일",
+      "vote_average": 7.54,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y8tPZ9P4tYqYiACs6t4mlcWJnSC.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 279060,
+      "origin_country": [
+        "MX"
+      ],
+      "original_language": "es",
+      "original_name": "Chespirito: Sin querer queriendo",
+      "overview": "",
+      "popularity": 411.7479,
+      "poster_path": "/bLyhzXAWvOn0L17NbCYP2aZ4sPt.jpg",
+      "first_air_date": "2025-06-05",
+      "name": "Chespirito: Sin querer queriendo",
+      "vote_average": 7.973,
+      "vote_count": 282
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a8a8z4aJr40zYgRMfmSESppX2eO.jpg",
+      "genre_ids": [
+        10764,
+        35
+      ],
+      "id": 70672,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "아는 형님",
+      "overview": "Участники шоу получают вопросы от зрителей, их задача - ответить на вопросы, используя тело и мозг. Шоу изменило свою концепцию на школьную после 16 эпизода. Многие зрители считают, что изменения только к лучшему.",
+      "popularity": 369.0559,
+      "poster_path": "/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "first_air_date": "2015-12-05",
+      "name": "Всеведущие братья",
+      "vote_average": 7.528,
+      "vote_count": 36
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vaNcnuLNiNRPt9bbeTmdBXFw31W.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765,
+        35,
+        10751,
+        10762
+      ],
+      "id": 132791,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "パーマン",
+      "overview": "Мицуо столкнулся с Суперменом, инопланетянином, который является частью федерации, которая пытается поддерживать мир в галактике. Затем он получил шлем (который также служит маской), дающий сверхчеловеческую силу, накидку, позволяющую владельцу летать, и значок, позволяющий ему дышать под водой и общаться со своими товарищами, с которыми он познакомился вскоре после того, как воспользовался этими подарками. Супермен ясно дал понять всем перманентам, что их личность должна храниться в секрете, иначе их мозг будет уничтожен, если это когда-либо будет раскрыто, и им дается специальный робот-двойник, который может заменить их, пока они в отъезде, для достижения этого подвига, хотя он не совсем надежен и не свободен от потенциальных проблем.. Это оборудование затем позволило им стать молодыми немцами, которые пытаются поддерживать мир и помогать нуждающимся людям.",
+      "popularity": 329.8351,
+      "poster_path": "/lCGbsqKiOvRICllC4AgZ67zjrSL.jpg",
+      "first_air_date": "1983-04-04",
+      "name": "Супермалыш",
+      "vote_average": 8.75,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oJuDMcM8LZA5F5Ahgc9mZg2LRIO.jpg",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "id": 32726,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Bob's Burgers",
+      "overview": "Главный персонаж сериала — Боб. Он владеет небольшой закусочной, где продают гамбургеры. Боб занимается бизнесом со своей семьёй. Помогают ему жена-истеричка и трое детей, которые больше мешают процветанию дела Боба.",
+      "popularity": 349.9709,
+      "poster_path": "/brZYpomaBk91PPzl87U2UGkDSEA.jpg",
+      "first_air_date": "2011-01-09",
+      "name": "Закусочная Боба",
+      "vote_average": 7.819,
+      "vote_count": 1001
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/h0y3OzHzG4yNvn8u3Za6ByH8lrQ.jpg",
+      "genre_ids": [
+        18,
+        10766
+      ],
+      "id": 45789,
+      "origin_country": [
+        "DE"
+      ],
+      "original_language": "de",
+      "original_name": "Sturm der Liebe",
+      "overview": "",
+      "popularity": 313.3845,
+      "poster_path": "/jfFNydakwvbeACEwSd2Gh8UWtba.jpg",
+      "first_air_date": "2005-09-26",
+      "name": "Шторм любви",
+      "vote_average": 6.068,
+      "vote_count": 37
+    }
+  ],
+  "total_pages": 10079,
+  "total_results": 201561
+}
