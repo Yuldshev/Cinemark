@@ -1,0 +1,433 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/iEg2LHsFV3vC6LywkBAL3c1n9PP.jpg",
+      "genre_ids": [
+        10767,
+        35
+      ],
+      "id": 61818,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Late Night with Seth Meyers",
+      "overview": "",
+      "popularity": 581.0706,
+      "poster_path": "/rw0QaegwgKbRoB2CZe2lfewltT9.jpg",
+      "first_air_date": "2014-02-25",
+      "name": "Поздней ночью с Сетом Майерсом",
+      "vote_average": 5.362,
+      "vote_count": 109
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "genre_ids": [
+        10763,
+        35
+      ],
+      "id": 2224,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Daily Show",
+      "overview": "\"Дневное шоу с Тревором Ноем\" - американская вечерняя сатирическая телевизионная программа, транслирующаяся каждый понедельник по четверг на Comedy Central и в Канаде The Comedy Network. Описывая себя как фальшивую новостную программу, \"Дневное шоу с Тревором Ноем\" привлекает свою комедию и сатиру из последних новостей, политических деятелей, медиа-организаций и, зачастую, аспектов самого шоу.",
+      "popularity": 542.0284,
+      "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+      "first_air_date": "1996-07-22",
+      "name": "Дневное шоу с Тревором Ноем",
+      "vote_average": 6.371,
+      "vote_count": 584
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kCd0rmnNwCd3sgupO9DqSi9aHa0.jpg",
+      "genre_ids": [
+        10767
+      ],
+      "id": 65270,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "라디오스타",
+      "overview": "",
+      "popularity": 407.0062,
+      "poster_path": "/ofo50w2DTFcPkOm3iguWGU3Y8cw.jpg",
+      "first_air_date": "2007-05-30",
+      "name": "라디오스타",
+      "vote_average": 7.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vgeDRVpSUa4Hvovg4C6dgm4dfUW.jpg",
+      "genre_ids": [
+        10766,
+        18
+      ],
+      "id": 112470,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Ici tout commence",
+      "overview": "",
+      "popularity": 445.0881,
+      "poster_path": "/x9HeaagUAyyGl1fQ6exQcpELBxP.jpg",
+      "first_air_date": "2020-11-02",
+      "name": "Ici tout commence",
+      "vote_average": 6.839,
+      "vote_count": 90
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rLbXHqHqnme6FIE0UtkV4LUI7pz.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 59941,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Tonight Show Starring Jimmy Fallon",
+      "overview": "Комедийное ток-шоу, каждый выпуск которого открывается монологом Фэллона и продолжается беседами со звездными гостями, забавными скетчами, играми с их участием, а также музыкальными выступлениями.",
+      "popularity": 372.5961,
+      "poster_path": "/if7ECoH4xaYw5S8gomNIEmtwTxP.jpg",
+      "first_air_date": "2014-02-17",
+      "name": "Ночное шоу с Джимми Фэллоном",
+      "vote_average": 5.843,
+      "vote_count": 343
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sDoSavurRsckAldstpCvUs30A6P.jpg",
+      "genre_ids": [
+        35,
+        10764
+      ],
+      "id": 30801,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "1박 2일",
+      "overview": "",
+      "popularity": 464.1434,
+      "poster_path": "/aTixMf5OaKA50QNvcKv18X9SLjX.jpg",
+      "first_air_date": "2007-08-05",
+      "name": "1박 2일",
+      "vote_average": 7.54,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y8tPZ9P4tYqYiACs6t4mlcWJnSC.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 279060,
+      "origin_country": [
+        "MX"
+      ],
+      "original_language": "es",
+      "original_name": "Chespirito: Sin querer queriendo",
+      "overview": "",
+      "popularity": 411.7479,
+      "poster_path": "/bLyhzXAWvOn0L17NbCYP2aZ4sPt.jpg",
+      "first_air_date": "2025-06-05",
+      "name": "Chespirito: Sin querer queriendo",
+      "vote_average": 7.98,
+      "vote_count": 281
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a8a8z4aJr40zYgRMfmSESppX2eO.jpg",
+      "genre_ids": [
+        10764,
+        35
+      ],
+      "id": 70672,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "아는 형님",
+      "overview": "Участники шоу получают вопросы от зрителей, их задача - ответить на вопросы, используя тело и мозг. Шоу изменило свою концепцию на школьную после 16 эпизода. Многие зрители считают, что изменения только к лучшему.",
+      "popularity": 369.0559,
+      "poster_path": "/zak7mqMxJGnnWplSdbjDtV7bg2Y.jpg",
+      "first_air_date": "2015-12-05",
+      "name": "Всеведущие братья",
+      "vote_average": 7.528,
+      "vote_count": 36
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gMMnf8VRg3Z98WaFmOLr9Jk8pIs.jpg",
+      "genre_ids": [
+        35,
+        10767
+      ],
+      "id": 63770,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Late Show with Stephen Colbert",
+      "overview": "",
+      "popularity": 358.2412,
+      "poster_path": "/9jkThAGYj2yp8jsS6Nriy5mzKFT.jpg",
+      "first_air_date": "2015-09-08",
+      "name": "Вечернее шоу со Стивеном Колбертом",
+      "vote_average": 6.3,
+      "vote_count": 314
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jCQV3rHNbgHKo3N4G6CARbVEjPV.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 194766,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Summer I Turned Pretty",
+      "overview": "По одноименному роману Дженни Хан.\n\nЛюбовный треугольник связывает одну девушку и двух братьев. Это история о первой любви, первом разбитом сердце и волшебстве того единственного прекрасного лета.",
+      "popularity": 278.3185,
+      "poster_path": "/z5o9a0Q2QXKp5qT9JXIuxpmT1KF.jpg",
+      "first_air_date": "2022-06-16",
+      "name": "Этим летом я стала красивой",
+      "vote_average": 8.153,
+      "vote_count": 832
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sKlF9YrVu84DYMDAUZEZDCvDxK2.jpg",
+      "genre_ids": [
+        16,
+        35,
+        18,
+        10765
+      ],
+      "id": 244808,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "ぬきたし THE ANIMATION",
+      "overview": "",
+      "popularity": 275.7507,
+      "poster_path": "/zlybZJXfu4IpPnWXhnRtobl9BgZ.jpg",
+      "first_air_date": "2025-07-19",
+      "name": "ぬきたし THE ANIMATION",
+      "vote_average": 6.0,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/eGPH1IwktalozwCmeLTp3aPbHGC.jpg",
+      "genre_ids": [
+        10764
+      ],
+      "id": 4656,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Raw",
+      "overview": "Бои, которых вы еще не видели никогда! Это не простое яростное мочилово, вы станете свидетелями захватывающего сюжета, где каждый персонаж имеет свой характер, свою историю и свои взаимоотношения с другими героями.",
+      "popularity": 125.9327,
+      "poster_path": "/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
+      "first_air_date": "1993-01-11",
+      "name": "WWE RAW",
+      "vote_average": 6.795,
+      "vote_count": 336
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vrLDuQ5L45f7vFWpMT17WopdWx0.jpg",
+      "genre_ids": [
+        10764,
+        10767
+      ],
+      "id": 72896,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "미운 우리 새끼",
+      "overview": "",
+      "popularity": 200.6456,
+      "poster_path": "/5FQzjkx3zxxHNTzOqw9qMweQ4rd.jpg",
+      "first_air_date": "2016-08-26",
+      "name": "미운 우리 새끼",
+      "vote_average": 6.1,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pNdUVPm6RwvG9Ycd2cuYpLbM7lk.jpg",
+      "genre_ids": [
+        35,
+        10764
+      ],
+      "id": 78648,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "놀라운 토요일",
+      "overview": "Актеры будут обыгрывать в студии разные сценки и ситуации. Призы будут включать популярные блюда из известных мест по всей Корее.",
+      "popularity": 217.6151,
+      "poster_path": "/pnibkuL74C33GoKLTXAmF4nl3a6.jpg",
+      "first_air_date": "2018-04-07",
+      "name": "Потрясающая суббота - ДоРеМи Маркет",
+      "vote_average": 7.6,
+      "vote_count": 10
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7ZgTIEbvm72a7nkNy2eWnkFNmdj.jpg",
+      "genre_ids": [
+        10767,
+        35,
+        10763
+      ],
+      "id": 60694,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Last Week Tonight with John Oliver",
+      "overview": "Джон Оливер не только телеведущий, но и отличный комик, поэтому его еженедельное ток-шоу наполнено сатирой и звонким юмором. Последние новости, общественные и политические события — ничто не ускользает от его зоркого взгляда. Серьезные темы здесь соседствуют с юмористическими скетчами, а в гости частенько заходят звезды кино и телевидения.",
+      "popularity": 181.6028,
+      "poster_path": "/hRYYx5rCwwf7PcQKBGzxaISjM0Z.jpg",
+      "first_air_date": "2014-04-27",
+      "name": "События прошедшей недели с Джоном Оливером",
+      "vote_average": 7.833,
+      "vote_count": 725
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kkfqNkGQR5og5sDjJTxTVmI9PW.jpg",
+      "genre_ids": [
+        80,
+        18,
+        10766
+      ],
+      "id": 72879,
+      "origin_country": [
+        "FR"
+      ],
+      "original_language": "fr",
+      "original_name": "Demain nous appartient",
+      "overview": "",
+      "popularity": 221.0098,
+      "poster_path": "/g7O0gMpaxBppYayjEGd7nzzryVN.jpg",
+      "first_air_date": "2017-07-17",
+      "name": "Завтра принадлежит нам",
+      "vote_average": 6.343,
+      "vote_count": 67
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10765,
+        10759
+      ],
+      "id": 60625,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Rick and Morty",
+      "overview": "В центре сюжета — школьник по имени Морти и его дедушка Рик. Морти — самый обычный мальчик, который ничем не отличается от своих сверстников. А вот его дедуля занимается необычными научными исследованиями и зачастую полностью неадекватен. Он может в любое время дня и ночи схватить внука и отправиться вместе с ним в межпространственные приключения с помощью построенной из разного хлама летающей тарелки, которая способна перемещаться сквозь временной тоннель. Каждый раз эта парочка оказывается в самых неожиданных местах и самых нелепых ситуациях.",
+      "popularity": 219.9783,
+      "poster_path": "/wdzk1wPGOnO8dCnaQozSpe1oH9l.jpg",
+      "first_air_date": "2013-12-02",
+      "name": "Рик и Морти",
+      "vote_average": 8.7,
+      "vote_count": 10291
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+      "genre_ids": [
+        10762,
+        35
+      ],
+      "id": 502,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Sesame Street",
+      "overview": "«Улица Сезам» — одна из самых популярных в мире детских передач. В создании шоу активно принимали участие не только американские, но и российские педагоги и психологи, специалисты по развитию ребенка, которые позаботились о доступности и привлекательности программы для дошкольников и детей до 12 лет. «Улица Сезам» научит не только чтению и счету, в игровой форме дети узнают об основных нормах и ценностях современного общества, о положительных и отрицательных чертах характера, научатся разрешать конфликты мирным путем. Программа воспитывает в ребенке самоуважение, оптимизм, активную жизненную позицию и стимулирует любознательность. Вместе с Зелибобой, Кубиком, Бусинкой, Знаком и другими героями ребята не только многому научатся, но и встретят новых друзей.",
+      "popularity": 179.8091,
+      "poster_path": "/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+      "first_air_date": "1969-11-10",
+      "name": "Улица Сезам",
+      "vote_average": 7.086,
+      "vote_count": 266
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5546GF3zT3yA25ydCz0KlujjRA3.jpg",
+      "genre_ids": [
+        16,
+        80,
+        9648,
+        35
+      ],
+      "id": 30983,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "名探偵コナン",
+      "overview": "Любому мужчине известно — либо девушкой занимайся, либо мировыми проблемами! Стоило 17-летнему Синъити Кудо на прогулке с подругой детства Ран Мори отвлечься на деяния подозрительных лиц, как злые бандиты схватили его и заставили принять странную пилюлю, которая обратила парня в 7-летнего мальчика. Чудом выживший Кудо бросился за помощью к другу, но даже гениальный профессор Агаса не смог ничего поделать. А уж когда в дом профессора ворвалась взволнованная Ран и спросила незнакомого ребенка, кто он такой, бедняга смог только скользнуть взглядом по книжным полкам и выдавить: «Эдогава… Конан». \n\n \n\n \n\nПойти против зловещего Чёрного Синдиката — не шутка, но герои и не думали отступать. Родители Кудо покинули страну, а малыш Конан поселился в семье Мори вместе с любимой Ран и ее отцом Когоро, бывшим полицейским. Благодаря собственному незаурядному уму, связям Когоро и технической поддержке профессора, мальчик-детектив вместе с друзьями активно включился в расследование преступлений и очищение Японии от криминала. Ну а главный вопрос сериала прост — сможет ли юный Эдогава побороть вражеские замыслы прежде, чем ненаглядная Ран сообразит, с кем живет под одной крышей?",
+      "popularity": 178.7409,
+      "poster_path": "/q0st5BE5FWryZftGIGQTXPpPHpx.jpg",
+      "first_air_date": "1996-01-08",
+      "name": "Детектив Конан",
+      "vote_average": 8.0,
+      "vote_count": 702
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hUz0UHWSVd6e1g3I6vT4shAsnoY.jpg",
+      "genre_ids": [
+        10766,
+        18,
+        80
+      ],
+      "id": 1871,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "EastEnders",
+      "overview": "Сериал о повседневной жизни простых жителей вымышленного округа Уолфорд в восточной части Лондона.",
+      "popularity": 170.2302,
+      "poster_path": "/z4jgyI5TpoRZiJTNchkVkMrGQyz.jpg",
+      "first_air_date": "1985-02-19",
+      "name": "Жители Ист-Энда",
+      "vote_average": 4.146,
+      "vote_count": 213
+    }
+  ],
+  "total_pages": 52,
+  "total_results": 1038
+}

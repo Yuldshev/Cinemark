@@ -2,8 +2,9 @@ import Foundation
 import XCTest
 @testable import Cinemark
 
-final class NetworkServiceTests: XCTestCase {
+final class MovieEndpointTests: XCTestCase {
   var sut: MockNetworkService!
+  private var jsonLoader = JSONLoader.shared
   
   override func setUp() {
     super.setUp()
@@ -15,9 +16,9 @@ final class NetworkServiceTests: XCTestCase {
     super.tearDown()
   }
   
-  //MARK: - Tests
+  //MARK: - Movie Endpoint tests
   func test_request_popularMovies_success() async throws {
-    let expectedResponse: ResponseDTO<Movie> = try loadJSON(from: "MoviePopularResponse.json")
+    let expectedResponse: ResponseDTO<Movie> = try jsonLoader.loadJSON(from: "MoviePopularResponse.json")
     sut.result = .success(expectedResponse)
     
     let response: ResponseDTO<Movie> = try await sut.request(.moviePopular(page: 1))
@@ -29,7 +30,7 @@ final class NetworkServiceTests: XCTestCase {
   }
   
   func test_request_topRatedMovies_success() async throws {
-    let expectedResponse: ResponseDTO<Movie> = try loadJSON(from: "MovieTopRatedResponse.json")
+    let expectedResponse: ResponseDTO<Movie> = try jsonLoader.loadJSON(from: "MovieTopRatedResponse.json")
     sut.result = .success(expectedResponse)
     
     let response: ResponseDTO<Movie> = try await sut.request(.movieTopRated(page: 1))
@@ -40,6 +41,41 @@ final class NetworkServiceTests: XCTestCase {
     XCTAssertEqual(response.results.last?.title, "Могила светлячков")
   }
   
+  func test_request_upcomingMovies_success() async throws {
+    let expectedResponse: ResponseDTO<Movie> = try jsonLoader.loadJSON(from: "MovieUpcomingResponse.json")
+    sut.result = .success(expectedResponse)
+    
+    let response: ResponseDTO<Movie> = try await sut.request(.movieUpcoming(page: 1))
+    
+    XCTAssertEqual(response.page, 1)
+    XCTAssertEqual(response.results.count, 20)
+    XCTAssertEqual(response.results.first?.title, "Каратэ-пацан: Легенды")
+    XCTAssertEqual(response.results.last?.title, "Трансформеры: Начало")
+  }
+  
+  func test_request_nowPlayingMovies_success() async throws {
+    let expectedResponse: ResponseDTO<Movie> = try jsonLoader.loadJSON(from: "MovieNowPlayingResponse.json")
+    sut.result = .success(expectedResponse)
+    
+    let response: ResponseDTO<Movie> = try await sut.request(.movieNowPlaying(page: 1))
+    
+    XCTAssertEqual(response.page, 1)
+    XCTAssertEqual(response.results.count, 20)
+    XCTAssertEqual(response.results.first?.title, "Как приручить дракона")
+    XCTAssertEqual(response.results.last?.title, "Экзотическая свадьба Мэдеи")
+  }
+  
+  func test_request_movieID_success() async throws {
+    let expectedResponse: DetailMovie = try jsonLoader.loadJSON(from: "MovieIDResponse.json")
+    sut.result = .success(expectedResponse)
+    
+    let response: DetailMovie = try await sut.request(.movieID(278))
+    
+    XCTAssertEqual(response.adult, false)
+    XCTAssertEqual(response.title, "Побег из Шоушенка")
+  }
+  
+  //MARK: - Movie NetworkError
   func test_request_failure_error() async {
     let expectedError = NetworkError.serverError(statusCode: 500)
     sut.result = .failure(expectedError)
@@ -62,17 +98,6 @@ final class NetworkServiceTests: XCTestCase {
     } catch {
       XCTAssertEqual(error as? NetworkError, expectedError)
     }
-  }
-  
-  //MARK: - Sup methods
-  private func loadJSON<T: Decodable>(from filename: String) throws -> T {
-    guard let ulr = Bundle(for: NetworkServiceTests.self).url(forResource: filename, withExtension: nil) else {
-      fatalError("Failed to locate \(filename).json")
-    }
-    
-    let data = try Data(contentsOf: ulr)
-    let decoder = JSONDecoder()
-    return try decoder.decode(T.self, from: data)
   }
 }
 

@@ -1,0 +1,412 @@
+{
+  "dates": {
+    "maximum": "2025-07-23",
+    "minimum": "2025-06-11"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/etT14XfDEqhQZdD47ywpyihXPyW.jpg",
+      "genre_ids": [
+        14,
+        10751,
+        28
+      ],
+      "id": 1087192,
+      "original_language": "en",
+      "original_title": "How to Train Your Dragon",
+      "overview": "Подростку Иккингу не слишком близки традиции его героического племени, много лет ведущего войну с драконами. Парень неожиданно заводит дружбу с драконом Беззубиком, который поможет ему и другим викингам увидеть мир с совершенно другой стороны.",
+      "popularity": 1075.8358,
+      "poster_path": "/hiLwtS68fCx9rd5GFK0QDqu4uBV.jpg",
+      "release_date": "2025-06-06",
+      "title": "Как приручить дракона",
+      "video": false,
+      "vote_average": 8.153,
+      "vote_count": 1038
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cEQMqB3ahd4mfeUN6VGC0ouVnZZ.jpg",
+      "genre_ids": [
+        28,
+        878,
+        53
+      ],
+      "id": 1071585,
+      "original_language": "en",
+      "original_title": "M3GAN 2.0",
+      "overview": "Спустя два года после событий первой части создательница М3ГАН Джемма стала рьяным сторонником государственного надзора за ИИ. Между тем, ее племянница Кэди, которой уже исполнилось четырнадцать лет, не в восторге от гиперопеки и слишком строгих правил своей тети. Но самое страшное начинается, когда прототип М3ГАН оказывается не тех в руках. Технологию используют для создания опаснейшего оружия - робота-киллера по имени Амелия. В результате М3ГАН 2.0 вбирает в себя все худшее, что может представлять собой ИИ, и освобождается из-под всякого контроля. На кону оказывается будущее всего человечества.",
+      "popularity": 828.4871,
+      "poster_path": "/oL96zIrXoraXrYU1afcB3Tf5lgI.jpg",
+      "release_date": "2025-06-25",
+      "title": "М3ГАН 2.0",
+      "video": false,
+      "vote_average": 7.742,
+      "vote_count": 386
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7Q2CmqIVJuDAESPPp76rWIiA0AD.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "id": 1011477,
+      "original_language": "en",
+      "original_title": "Karate Kid: Legends",
+      "overview": "Молодой и талантливый каратист Ли Фонг из-за случившейся трагедии переезжает из Китая в США вместе с матерью. Ли нелегко расстаться с прошлой жизнью и адаптироваться к новой, требующей от него постоянной борьбы. Чтобы помочь новому другу, Ли записывается на соревнование по каратэ. Но понимает, что для выигрыша его умений недостаточно. Тогда его наставник мистер Хан обращается за помощью к Дэниелу Ларуссо, легендарному мастеру каратэ.",
+      "popularity": 368.281,
+      "poster_path": "/qzJ3iolWhBT7HeFR2nmaeURnROq.jpg",
+      "release_date": "2025-05-08",
+      "title": "Каратэ-пацан: Легенды",
+      "video": false,
+      "vote_average": 7.258,
+      "vote_count": 482
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/63RnEJRNzRDvi0Fv4jhrT2eh0fl.jpg",
+      "genre_ids": [
+        16,
+        28,
+        14,
+        53
+      ],
+      "id": 1311031,
+      "original_language": "ja",
+      "original_title": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "overview": "",
+      "popularity": 387.6431,
+      "poster_path": "/rz1jMKpu4rq2wiKMyILF06aiSwP.jpg",
+      "release_date": "2025-07-18",
+      "title": "Истребитель демонов: Бесконечный замок",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9l6bcHNFLR2fcCBSPzEeqxiQhwU.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        9648
+      ],
+      "id": 1374534,
+      "original_language": "nl",
+      "original_title": "Bad Boa's",
+      "overview": "Когда чрезмерно энергичный служащий муниципальной полиции и безрассудный бывший детектив поневоле объединяются, на улицах Роттердама начинается полный хаос.",
+      "popularity": 332.9375,
+      "poster_path": "/upzsNh9Ue3DmFlGnUlxwXtnEpQc.jpg",
+      "release_date": "2025-07-10",
+      "title": "Напарники поневоле",
+      "video": false,
+      "vote_average": 5.735,
+      "vote_count": 81
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 1061474,
+      "original_language": "en",
+      "original_title": "Superman",
+      "overview": "Кларк Кент, родившийся на планете Криптон, но оказавшийся на воспитании у простой семьи на Земле, пытается найти баланс между своей человеческой жизнью и криптонским наследием, делающим его Суперменом.",
+      "popularity": 359.173,
+      "poster_path": "/sezEzZZYJeaLjNGjTFHzWJ3yk5E.jpg",
+      "release_date": "2025-07-09",
+      "title": "Супермен",
+      "video": false,
+      "vote_average": 7.505,
+      "vote_count": 969
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/962KXsr09uK8wrmUg9TjzmE7c4e.jpg",
+      "genre_ids": [
+        28,
+        53,
+        18
+      ],
+      "id": 1119878,
+      "original_language": "en",
+      "original_title": "Ice Road: Vengeance",
+      "overview": "Майк отправляется в Непал, чтобы развеять прах своего покойного брата на Эвересте. Во время поездки на переполненном туристическом автобусе по смертельно опасной местности Майк и его горный гид сталкиваются с группой наемников, им приходится вступить в борьбу, чтобы спасти себя и пассажиров. Сиквел фильма «Ледяной драйв».",
+      "popularity": 292.2031,
+      "poster_path": "/jVcQchW7EXT8MXk1C4XaUpqHhRC.jpg",
+      "release_date": "2025-06-27",
+      "title": "Ледяной драйв: Возмездие",
+      "video": false,
+      "vote_average": 7.004,
+      "vote_count": 125
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oPgXVSdGR9dGwbmvIToOCMmsdc2.jpg",
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "id": 541671,
+      "original_language": "en",
+      "original_title": "Ballerina",
+      "overview": "Когда Ева была маленькой, вооруженные люди во главе с мужчиной по прозвищу Канцлер оставили её сиротой. Так девочка оказалась в криминальной семье «Русска рома» на попечении Директрисы нью-йоркской балетной школы, одновременно служащей академией наемных убийц. Не добившись успехов в балете, но боевые курсы окончив с отличием, Ева отправляется в Европу мстить за папу.",
+      "popularity": 336.554,
+      "poster_path": "/oKD6ggXEN1WGPPDiVAuOfdDLBNv.jpg",
+      "release_date": "2025-06-04",
+      "title": "Балерина",
+      "video": false,
+      "vote_average": 7.492,
+      "vote_count": 1083
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "id": 1234821,
+      "original_language": "en",
+      "original_title": "Jurassic World Rebirth",
+      "overview": "Спустя 5 лет после завоевания мира юрского периода, экспедиция отправляется в изолированные экваториальные регионы, чтобы извлечь ДНК из 3-ёх огромных доисторических существ для революционного открытия в медицине.",
+      "popularity": 225.4012,
+      "poster_path": "/iIk5nWcHuqTMLrz1yrwIWcmwTOM.jpg",
+      "release_date": "2025-07-01",
+      "title": "Мир Юрского периода: Возрождение",
+      "video": false,
+      "vote_average": 6.368,
+      "vote_count": 718
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fd9K7ZDfzRAcbLh8JlG4HIKbtuR.jpg",
+      "genre_ids": [
+        28,
+        14
+      ],
+      "id": 846422,
+      "original_language": "en",
+      "original_title": "The Old Guard 2",
+      "overview": "Придерживаясь изменившихся установок, Энди и ее команда бессмертных воинов сражаются против могущественного нового врага, угрожающего их миссии по защите человечества.",
+      "popularity": 186.2331,
+      "poster_path": "/b1F05dWGFA4VlE0DlMg6hhCmOOW.jpg",
+      "release_date": "2025-07-01",
+      "title": "Бессмертная гвардия 2",
+      "video": false,
+      "vote_average": 6.066,
+      "vote_count": 514
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/l3ycQYwWmbz7p8otwbomFDXIEhn.jpg",
+      "genre_ids": [
+        16,
+        14,
+        28,
+        35,
+        10402,
+        10751
+      ],
+      "id": 803796,
+      "original_language": "en",
+      "original_title": "KPop Demon Hunters",
+      "overview": "Когда суперзвёзды Кейпоп Руми, Мира и Зои не собирают стадионы, они используют свои тайные способности, чтобы защитить своих поклонников от сверхъестественных угроз.",
+      "popularity": 220.5889,
+      "poster_path": "/7dGazFZ1qYhs3GpcJj41BrpBrSE.jpg",
+      "release_date": "2025-06-20",
+      "title": "Кейпоп-охотницы на демонов",
+      "video": false,
+      "vote_average": 8.577,
+      "vote_count": 696
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vJbEUMeI2AxBUZKjP6ZVeVNNTLh.jpg",
+      "genre_ids": [
+        28,
+        53,
+        35
+      ],
+      "id": 749170,
+      "original_language": "en",
+      "original_title": "Heads of State",
+      "overview": "Когда премьер-министр Великобритании и президент США становятся целями иностранного противника, им приходится полагаться друг на друга, чтобы помешать мировому заговору.",
+      "popularity": 165.5357,
+      "poster_path": "/j2IEKt3uWGFrHxWpPY9mVSL3lHV.jpg",
+      "release_date": "2025-07-02",
+      "title": "Главы государств",
+      "video": false,
+      "vote_average": 6.958,
+      "vote_count": 506
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tdMbbFhqyEqOK1QzNTvJjHWKbZX.jpg",
+      "genre_ids": [
+        27,
+        53,
+        28
+      ],
+      "id": 1429744,
+      "original_language": "th",
+      "original_title": "ปากกัด ตีนถีบ",
+      "overview": "В смертельной схватке с ужасающей армией зомби бывшему бойцу муай-тай понадобится мастерство, скорость и смелость, чтобы спасти любимую.",
+      "popularity": 177.228,
+      "poster_path": "/rE5Bf1ejCUuHxmQGIJTZ7W7M13p.jpg",
+      "release_date": "2025-07-09",
+      "title": "Кулаки против зомби",
+      "video": false,
+      "vote_average": 6.736,
+      "vote_count": 108
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iZ0ZSnhmHB3k1KDkDzEz65f5iia.jpg",
+      "genre_ids": [
+        16,
+        28,
+        878
+      ],
+      "id": 1326106,
+      "original_language": "ja",
+      "original_title": "アニメ『怪獣８号』第１期総集編／同時上映「保科の休日」",
+      "overview": "В мире, где гигантские монстры кайдзю регулярно атакуют города, человечество создало специальные силы обороны для борьбы с ними. Кафка Хибино мечтает стать частью этих сил, но в свои 32 года он всё ещё работает уборщиком после неудач на вступительных экзаменах. Всё меняется, когда он неожиданно превращается в кайдзю № 8 — человека-монстра с невероятной силой. Теперь он должен сражаться не только с другими кайдзю, но и с недоверием тех, кого он хочет защитить.",
+      "popularity": 156.2764,
+      "poster_path": "/8b9u8Sg00QgnpIu0g5EenPswL6t.jpg",
+      "release_date": "2025-03-28",
+      "title": "Кайдзю № 8: Миссия «Разведка»",
+      "video": false,
+      "vote_average": 7.862,
+      "vote_count": 29
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lSbblLngbeZIn6G4WXDcyQ6SLhw.jpg",
+      "genre_ids": [
+        28,
+        18
+      ],
+      "id": 911430,
+      "original_language": "en",
+      "original_title": "F1",
+      "overview": "Звезда «Формулы-1» Сонни Хейс ушел из спорта после серьезной аварии еще в 1990‑х. Спустя много лет к нему обращается владелец гоночной команды APXGP с просьбой присоединиться к ним в качестве второго пилота и наставника для вундеркинда Джошуа Пирса.",
+      "popularity": 160.3742,
+      "poster_path": "/hqegP9dEXPN4SWyYZmNlXRA6vdW.jpg",
+      "release_date": "2025-06-25",
+      "title": "Формула 1",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 831
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9A0wQG38VdEu3DYh8HzXKXKhA6g.jpg",
+      "genre_ids": [
+        12,
+        35,
+        10751
+      ],
+      "id": 1287536,
+      "original_language": "en",
+      "original_title": "Dora and the Search for Sol Dorado",
+      "overview": "Дора, Диего и их новые друзья преодолевают страшные опасности джунглей Амазонки в поисках древнего и могущественного сокровища Сольдорадо, чтобы уберечь его от попадания в руки врагов.",
+      "popularity": 108.5832,
+      "poster_path": "/pzxY1xomXmvIhdZ0j2InVsu1YmJ.jpg",
+      "release_date": "2025-07-02",
+      "title": "Дора и поиски Соль Дорадо",
+      "video": false,
+      "vote_average": 6.992,
+      "vote_count": 66
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/68TGPnvmZ21NBOoV5IUZ4fQDyvZ.jpg",
+      "genre_ids": [
+        10402,
+        12,
+        10749,
+        35,
+        10751
+      ],
+      "id": 1243341,
+      "original_language": "en",
+      "original_title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
+      "overview": "Зед и Эддисон открывают для себя враждующие миры Саннисайд и Шейдисайд во время летнего путешествия после первого курса колледжа, сталкиваясь с двумя новыми группами монстров.",
+      "popularity": 106.869,
+      "poster_path": "/6rGsqBxI4r1YkS9FuraovWi465w.jpg",
+      "release_date": "2025-07-10",
+      "title": "З-О-М-Б-И 4: Рассвет вампиров",
+      "video": false,
+      "vote_average": 7.138,
+      "vote_count": 76
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5esDYWV0NoFwqPa1iC0g9akqZo9.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1151031,
+      "original_language": "en",
+      "original_title": "Bring Her Back",
+      "overview": "После смерти отца сводные брат и сестра Энди и Пайпер отправляются к приёмной матери по имени Лора. Парень привык заботиться о слабовидящей сестре и через три месяца, когда ему исполнится 18, собирается оформить опеку. Хотя Лора, на первый взгляд, кажется заботливой и понимающей, она и её странный сын вызывают у Энди всё больше подозрений.",
+      "popularity": 118.1743,
+      "poster_path": "/bXUHpvzSevyjjKgyNt7cfdehhrR.jpg",
+      "release_date": "2025-05-28",
+      "title": "Верни её из мёртвых",
+      "video": false,
+      "vote_average": 7.422,
+      "vote_count": 289
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/apNfldKI3RiaukNwJzr8EjRG7Wc.jpg",
+      "genre_ids": [
+        53,
+        878
+      ],
+      "id": 1425045,
+      "original_language": "de",
+      "original_title": "Brick",
+      "overview": "Многоквартирный дом Тима и Оливии внезапно оказывается окружен таинственной кирпичной стеной. Чтобы выбраться живыми, им придется найти общий язык с недоверчивыми соседями.",
+      "popularity": 85.2652,
+      "poster_path": "/hsEeICSBje4zjUV3bkIgOcFx6SX.jpg",
+      "release_date": "2025-07-09",
+      "title": "Кирпич",
+      "video": false,
+      "vote_average": 5.832,
+      "vote_count": 298
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/57on65zgbTjmiMJSqqKVZ3c355p.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1246310,
+      "original_language": "en",
+      "original_title": "Madea's Destination Wedding",
+      "overview": "Тиффани, правнучатая племянница Мадии, знакомит семью со своим новым возлюбленным, Завьером, и сообщает неожиданную новость: пара собирается пожениться через две недели на Багамах. Хотя мать Тиффани, Дебра, пытается держать всё под контролем, отпуск проходит не без сложностей. Бабушка не готова уезжать за границу, отец девушки не одобряет скорую свадьбу дочери и не принимает жениха, и у самой Тиффани возникают сомнения насчёт будущего мужа.",
+      "popularity": 85.8111,
+      "poster_path": "/jwMwRucnAROgWo9WLLmIqzHmmzi.jpg",
+      "release_date": "2025-07-10",
+      "title": "Экзотическая свадьба Мэдеи",
+      "video": false,
+      "vote_average": 5.917,
+      "vote_count": 42
+    }
+  ],
+  "total_pages": 225,
+  "total_results": 4484
+}

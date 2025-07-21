@@ -35,24 +35,7 @@
 			);
 			target = 1392B13C2E2CE6C000FADCE8 /* Cinemark */;
 		};
-		1392B18D2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "CinemarkTests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Network/JSON/MovieTopRatedResponse.json,
-			);
-			target = 1392B1762E2D323C00FADCE8 /* CinemarkTests */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		1392B18E2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "Compile Sources" phase from "CinemarkTests" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 1392B1732E2D323C00FADCE8 /* Sources */;
-			membershipExceptions = (
-				Network/JSON/MovieTopRatedResponse.json,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1392B13F2E2CE6C000FADCE8 /* Cinemark */ = {
@@ -65,10 +48,6 @@
 		};
 		1392B1782E2D323C00FADCE8 /* CinemarkTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1392B18D2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "CinemarkTests" target */,
-				1392B18E2E2DECD300FADCE8 /* Exceptions for "CinemarkTests" folder in "Compile Sources" phase from "CinemarkTests" target */,
-			);
 			path = CinemarkTests;
 			sourceTree = "<group>";
 		};
