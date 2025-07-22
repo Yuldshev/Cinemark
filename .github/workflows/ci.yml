@@ -33,6 +33,9 @@ jobs:
           brew install swiftlint
           sudo gem install xcpretty
 
+      - name: Repair project file
+        run: sed -i '' '/minimizedProjectReferenceProxies/d' Cinemark.xcodeproj/project.pbxproj
+
       # 4. Сборка и тестирование
       # Этот шаг выполняет основную работу:
       # - Динамически находит доступный симулятор iPhone, чтобы избежать ошибок, связанных с отсутствием конкретной версии.
