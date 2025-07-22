@@ -1,46 +1,51 @@
-name: iOS CI
+name: CI
 
+# Триггеры для запуска рабочего процесса
 on:
   push:
-    branches:
-      - main
-      - develop
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-      - develop
+    branches: [ main ]
 
 jobs:
   build-and-test:
-    name: Build and Test
+    # Используем последнюю доступную среду macOS от GitHub
     runs-on: macos-latest
 
     steps:
-      # 1. Клонируем репозиторий
+      # 1. Клонирование репозитория
+      # Этот шаг загружает вашу кодовую базу в среду выполнения CI.
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Устанавливаем Xcode
-      - name: Set up Xcode
-        uses: maxim-lobanov/setup-xcode@v1
+      # 2. Выбор версии Xcode
+      # Явно указываем версию Xcode для обеспечения консистентности сборок.
+      # Вы можете изменить '15.4' на версию, которая вам нужна.
+      - name: Select Xcode version
+        uses: actions/setup-xcode@v1
         with:
-          xcode-version: '15.2'
+          xcode-version: '15.4'
 
-      # 3. Кешируем DerivedData для ускорения последующих сборок
-      - name: Cache DerivedData
-        uses: actions/cache@v4
-        with:
-          path: ~/Library/Developer/Xcode/DerivedData
-          key: derived-data-${{ runner.os }}-${{ hashFiles('Cinemark.xcodeproj/project.pbxproj', 'Cinemark.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
-          restore-keys: |
-            derived-data-${{ runner.os }}-
-
-      # 4. Собираем проект и запускаем тесты
-      - name: Build and Run Tests
+      # 3. Установка зависимостей
+      # Устанавливаем SwiftLint для проверки стиля кода и xcpretty для форматирования вывода xcodebuild.
+      - name: Install Dependencies
         run: |
+          brew install swiftlint
+          sudo gem install xcpretty
+
+      # 4. Сборка и тестирование
+      # Этот шаг выполняет основную работу:
+      # - Динамически находит доступный симулятор iPhone, чтобы избежать ошибок, связанных с отсутствием конкретной версии.
+      # - Запускает 'xcodebuild' с командами clean, build и test.
+      # - Использует xcpretty для более чистого и читаемого вывода.
+      - name: Build and Test
+        run: |
+          set -o pipefail && \
+          UDID=$(xcrun simctl list devices available --json | jq -r '.devices | map(.[]) | .[] | select(.name | contains("iPhone")) | .udid' | head -n 1) && \
+          echo "Found available simulator with UDID: $UDID" && \
           xcodebuild clean build test \
             -project Cinemark.xcodeproj \
             -scheme Cinemark \
-            -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2' \
-            CODE_SIGNING_ALLOWED=NO
-
+            -destination "id=$UDID" \
+            CODE_SIGNING_ALLOWED=NO \
+          | xcpretty
