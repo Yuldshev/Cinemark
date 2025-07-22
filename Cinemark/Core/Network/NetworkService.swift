@@ -7,14 +7,14 @@ protocol NetworkServiceProtocol {
 
 final class NetworkService: NetworkServiceProtocol {
   static let shared = NetworkService()
-  
+
   let session: Session
-  
+
   private init() {
     self.session = Session(eventMonitors: [NetworkLogger()])
   }
-  
-  func request<T>(_ endpoint: APIEndpoints) async throws -> T where T : Decodable {
+
+  func request<T>(_ endpoint: APIEndpoints) async throws -> T where T: Decodable {
     do {
       return try await session.request(endpoint)
         .validate()
@@ -24,16 +24,17 @@ final class NetworkService: NetworkServiceProtocol {
       throw mapError(error)
     }
   }
-  
+
   private func mapError(_ error: Error) -> NetworkError {
     if let afError = error as? AFError {
       switch afError {
-        case .sessionTaskFailed(let urlError as URLError) where urlError.code == .notConnectedToInternet: return .noConnection
-        case .responseValidationFailed(let reason): if case .unacceptableStatusCode(let code) = reason {
+      case .sessionTaskFailed(let urlError as URLError) where urlError.code == .notConnectedToInternet:
+          return .noConnection
+      case .responseValidationFailed(let reason): if case .unacceptableStatusCode(let code) = reason {
           return .serverError(statusCode: code)
         }
-        case .responseSerializationFailed: return .decodingFailed(error: error)
-        default: return .badRequest(error: error)
+      case .responseSerializationFailed: return .decodingFailed(error: error)
+      default: return .badRequest(error: error)
       }
     }
     return .unknown(error: error)
