@@ -145,7 +145,7 @@
 		1392B1352E2CE6C000FADCE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
