@@ -9,8 +9,8 @@ on:
 
 jobs:
   build-and-test:
-    # Используем последнюю доступную среду macOS от GitHub
-    runs-on: macos-latest
+    # Используем macOS 14 для стабильности
+    runs-on: macos-14
 
     steps:
       # 1. Клонирование репозитория
