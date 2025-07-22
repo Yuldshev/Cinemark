@@ -2,6 +2,10 @@ import Foundation
 import Alamofire
 
 enum APIEndpoints: URLRequestConvertible {
+  //MARK: - Auth
+  case authRequestToken
+  case authCreateSession(token: String)
+  
   //MARK: - Movie
   case moviePopular(page: Int)
   case movieTopRated(page: Int)
@@ -21,9 +25,18 @@ enum APIEndpoints: URLRequestConvertible {
   
   var baseURL: URL { URL(string: "https://api.themoviedb.org/3")! }
   
-  var method: HTTPMethod { .get }
+  var method: HTTPMethod {
+    switch self {
+      case .authCreateSession: return .post
+      default: return .get
+    }
+  }
+  
   var path: String {
     switch self {
+      case .authRequestToken: return "/authentication/token/new"
+      case .authCreateSession: return "/authentication/session/new"
+        
       case .moviePopular: return "/movie/popular"
       case .movieTopRated: return "/movie/top_rated"
       case .movieUpcoming: return "/movie/upcoming"
@@ -41,13 +54,16 @@ enum APIEndpoints: URLRequestConvertible {
   }
   
   var parameters: Parameters {
-    let languageCode = Locale.current.language.languageCode?.identifier ?? "en"
-    var params: Parameters = ["api_key": Secret.api_key, "language": languageCode]
+    var params: Parameters = ["api_key": Secret.api_key]
     
     switch self {
       case .moviePopular(let page), .movieTopRated(let page), .movieUpcoming(let page), .movieNowPlaying(let page),
-          .tvPopular(let page), .tvTopRated(let page), .tvOnTheAir(let page), .personPopular(let page): params["page"] = page
-      case .movieID, .tvID, .personID: break
+          .tvPopular(let page), .tvTopRated(let page), .tvOnTheAir(let page), .personPopular(let page):
+        params["page"] = page
+        params["language"] = Locale.current.language.languageCode?.identifier ?? "en"
+      case .movieID, .tvID, .personID:
+        params["language"] = Locale.current.language.languageCode?.identifier ?? "en"
+      default: break
     }
     
     return params
@@ -56,7 +72,14 @@ enum APIEndpoints: URLRequestConvertible {
   func asURLRequest() throws -> URLRequest {
     var request = try URLRequest(url: baseURL.appendingPathComponent(path), method: method)
     
-    request = try URLEncoding.default.encode(request, with: parameters)
+    request = try URLEncoding.queryString.encode(request, with: parameters)
+    
+    if case .authCreateSession(let token) = self {
+      let body: [String: String] = ["request_token": token]
+      request.httpBody = try JSONEncoder().encode(body)
+      request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+    }
+    
     return request
   }
 }
