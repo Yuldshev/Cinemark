@@ -168,7 +168,6 @@
 				ru,
 			);
 			mainGroup = 1392B1342E2CE6C000FADCE8;
-			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				133893342E2FA9D100EE46B4 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
