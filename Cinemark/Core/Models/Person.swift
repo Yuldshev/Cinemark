@@ -8,7 +8,7 @@ struct Person: Codable, Identifiable {
   let popularity: Double
   let profilePath: String
   let knownFor: [KnownFor]
-  
+
   enum CodingKeys: String, CodingKey {
     case adult, gender, id
     case knownForDepartment = "known_for_department"
@@ -18,7 +18,7 @@ struct Person: Codable, Identifiable {
     case profilePath = "profile_path"
     case knownFor = "known_for"
   }
-  
+
   var profileURL: URL? {
     URL(string: "https://image.tmdb.org/t/p/original/\(profilePath)")
   }
@@ -41,7 +41,7 @@ struct KnownFor: Codable {
   let voteCount: Int
   let name, originalName, firstAirDate: String?
   let originCountry: [String]?
-  
+
   enum CodingKeys: String, CodingKey {
     case adult
     case backdropPath = "backdrop_path"
@@ -64,7 +64,7 @@ struct KnownFor: Codable {
   }
 }
 
-//MARK: - DetailPerson
+// MARK: - DetailPerson
 struct DetailPerson: Codable, Identifiable {
   let adult: Bool
   let alsoKnownAs: [String]
@@ -77,7 +77,7 @@ struct DetailPerson: Codable, Identifiable {
   let name: String
   let popularity: Double
   let profilePath: String
-  
+
   enum CodingKeys: String, CodingKey {
     case adult
     case alsoKnownAs = "also_known_as"
@@ -89,7 +89,7 @@ struct DetailPerson: Codable, Identifiable {
     case popularity
     case profilePath = "profile_path"
   }
-  
+
   var profileURL: URL? {
     URL(string: "https://image.tmdb.org/t/p/original/\(profilePath)")
   }

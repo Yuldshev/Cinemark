@@ -1,6 +1,6 @@
 import Foundation
 
-//MARK: - TV
+// MARK: - TV
 struct TV: Codable, Identifiable {
   let adult: Bool
   let backdropPath: String
@@ -13,7 +13,7 @@ struct TV: Codable, Identifiable {
   let firstAirDate: String?
   let voteAverage: Double
   let voteCount: Int
-  
+
   enum CodingKeys: String, CodingKey {
     case adult
     case backdropPath = "backdrop_path"
@@ -29,17 +29,17 @@ struct TV: Codable, Identifiable {
     case voteAverage = "vote_average"
     case voteCount = "vote_count"
   }
-  
+
   var posterURL: URL? {
-    URL(string: "https://image.tmdb.org/t/p/w500/\(posterPath)") ?? nil
+    URL(string: "https://image.tmdb.org/t/p/w500/\(posterPath)")
   }
-  
+
   var formattedVoteAverage: String {
     String(format: "%.1f", voteAverage)
   }
 }
 
-//MARK: - DetailTV
+// MARK: - DetailTV
 struct DetailTV: Codable, Identifiable {
   let adult: Bool
   let backdropPath: String
@@ -68,7 +68,7 @@ struct DetailTV: Codable, Identifiable {
   let status, tagline, type: String
   let voteAverage: Double
   let voteCount: Int
-  
+
   enum CodingKeys: String, CodingKey {
     case adult
     case backdropPath = "backdrop_path"
@@ -98,7 +98,7 @@ struct DetailTV: Codable, Identifiable {
     case voteAverage = "vote_average"
     case voteCount = "vote_count"
   }
-  
+
   var backdropURL: URL? {
     URL(string: "https://image.tmdb.org/t/p/w780/\(backdropPath)")
   }
@@ -110,7 +110,7 @@ struct CreatedBy: Codable {
   let creditID, name, originalName: String
   let gender: Int
   let profilePath: String?
-  
+
   enum CodingKeys: String, CodingKey {
     case id
     case creditID = "credit_id"
@@ -132,7 +132,7 @@ struct LastEpisodeToAir: Codable {
   let episodeType, productionCode: String
   let runtime, seasonNumber, showID: Int?
   let stillPath: String?
-  
+
   enum CodingKeys: String, CodingKey {
     case id, name, overview
     case voteAverage = "vote_average"
@@ -153,7 +153,7 @@ struct Network: Codable {
   let id: Int
   let logoPath: String?
   let name, originCountry: String
-  
+
   enum CodingKeys: String, CodingKey {
     case id
     case logoPath = "logo_path"
@@ -169,7 +169,7 @@ struct Season: Codable {
   let name, overview, posterPath: String?
   let seasonNumber: Int
   let voteAverage: Double
-  
+
   enum CodingKeys: String, CodingKey {
     case airDate = "air_date"
     case episodeCount = "episode_count"
@@ -180,12 +180,12 @@ struct Season: Codable {
   }
 }
 
-//MARK: - NextEpisodeToAir
+// MARK: - NextEpisodeToAir
 struct NextEpisodeToAir: Codable {
   let id: Int
   let name: String
   let airDate: String
-  
+
   enum CodingKeys: String, CodingKey {
     case id, name
     case airDate = "air_date"
