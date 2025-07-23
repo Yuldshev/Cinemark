@@ -3,11 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		133893362E2FA9D100EE46B4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 133893352E2FA9D100EE46B4 /* Alamofire */; };
+		1392B1A12E2FA00000000001 /* CinemarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1A02E2FA00000000001 /* CinemarkApp.swift */; };
+		1392B1A32E2FA00000000002 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1A22E2FA00000000002 /* Movie.swift */; };
+		1392B1A52E2FA00000000003 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1A42E2FA00000000003 /* Person.swift */; };
+		1392B1A72E2FA00000000004 /* ResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1A62E2FA00000000004 /* ResponseDTO.swift */; };
+		1392B1A92E2FA00000000005 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1A82E2FA00000000005 /* TV.swift */; };
+		1392B1AB2E2FA00000000006 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1AA2E2FA00000000006 /* APIEndpoints.swift */; };
+		1392B1AD2E2FA00000000007 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1AC2E2FA00000000007 /* NetworkError.swift */; };
+		1392B1AF2E2FA00000000008 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1AE2E2FA00000000008 /* NetworkLogger.swift */; };
+		1392B1B12E2FA00000000009 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1B02E2FA00000000009 /* NetworkService.swift */; };
+		1392B1B32E2FA0000000000A /* SecretDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1B22E2FA0000000000A /* SecretDecoder.swift */; };
+		1392B1B52E2FA0000000000B /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1B42E2FA0000000000B /* JSONLoader.swift */; };
+		1392B1B72E2FA0000000000C /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1B62E2FA0000000000C /* MockNetworkService.swift */; };
+		1392B1B92E2FA0000000000D /* PersonEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1B82E2FA0000000000D /* PersonEndpointTests.swift */; };
+		1392B1BB2E2FA0000000000E /* TVEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1BA2E2FA0000000000E /* TVEndpointTests.swift */; };
+		1392B1BD2E2FA0000000000F /* MovieEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1392B1BC2E2FA0000000000F /* MovieEndpointTests.swift */; };
+		1392B1BF2E2FA00000000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1392B1BE2E2FA00000000010 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,34 +39,24 @@
 /* Begin PBXFileReference section */
 		1392B13D2E2CE6C000FADCE8 /* Cinemark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1392B1772E2D323C00FADCE8 /* CinemarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1392B1A02E2FA00000000001 /* CinemarkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemarkApp.swift; sourceTree = "<group>"; };
+		1392B1A22E2FA00000000002 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1392B1A42E2FA00000000003 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1392B1A62E2FA00000000004 /* ResponseDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseDTO.swift; sourceTree = "<group>"; };
+		1392B1A82E2FA00000000005 /* TV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+		1392B1AA2E2FA00000000006 /* APIEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		1392B1AC2E2FA00000000007 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1392B1AE2E2FA00000000008 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		1392B1B02E2FA00000000009 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1392B1B22E2FA0000000000A /* SecretDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretDecoder.swift; sourceTree = "<group>"; };
+		1392B1B42E2FA0000000000B /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		1392B1B62E2FA0000000000C /* MockNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		1392B1B82E2FA0000000000D /* PersonEndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonEndpointTests.swift; sourceTree = "<group>"; };
+		1392B1BA2E2FA0000000000E /* TVEndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVEndpointTests.swift; sourceTree = "<group>"; };
+		1392B1BC2E2FA0000000000F /* MovieEndpointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEndpointTests.swift; sourceTree = "<group>"; };
+		1392B1BE2E2FA00000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1392B1C02E2FA00000000011 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1392B15E2E2D10D000FADCE8 /* Exceptions for "Cinemark" folder in "Cinemark" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Core/Network/Secrets.xcconfig,
-				Info.plist,
-			);
-			target = 1392B13C2E2CE6C000FADCE8 /* Cinemark */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1392B13F2E2CE6C000FADCE8 /* Cinemark */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1392B15E2E2D10D000FADCE8 /* Exceptions for "Cinemark" folder in "Cinemark" target */,
-			);
-			path = Cinemark;
-			sourceTree = "<group>";
-		};
-		1392B1782E2D323C00FADCE8 /* CinemarkTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CinemarkTests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1392B13A2E2CE6C000FADCE8 /* Frameworks */ = {
@@ -89,6 +95,93 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1392B13F2E2CE6C000FADCE8 /* Cinemark */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1C32E2FA00000000012 /* Application */,
+				1392B1C42E2FA00000000013 /* Core */,
+				1392B1C02E2FA00000000011 /* Info.plist */,
+			);
+			path = Cinemark;
+			sourceTree = "<group>";
+		};
+		1392B1782E2D323C00FADCE8 /* CinemarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1C52E2FA00000000014 /* Network */,
+			);
+			path = CinemarkTests;
+			sourceTree = "<group>";
+		};
+		1392B1C32E2FA00000000012 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1A02E2FA00000000001 /* CinemarkApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1392B1C42E2FA00000000013 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1C62E2FA00000000015 /* Models */,
+				1392B1C72E2FA00000000016 /* Network */,
+				1392B1C82E2FA00000000017 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1392B1C52E2FA00000000014 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1B42E2FA0000000000B /* JSONLoader.swift */,
+				1392B1B62E2FA0000000000C /* MockNetworkService.swift */,
+				1392B1B82E2FA0000000000D /* PersonEndpointTests.swift */,
+				1392B1BA2E2FA0000000000E /* TVEndpointTests.swift */,
+				1392B1BC2E2FA0000000000F /* MovieEndpointTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1392B1C62E2FA00000000015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1A22E2FA00000000002 /* Movie.swift */,
+				1392B1A42E2FA00000000003 /* Person.swift */,
+				1392B1A62E2FA00000000004 /* ResponseDTO.swift */,
+				1392B1A82E2FA00000000005 /* TV.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1392B1C72E2FA00000000016 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1AA2E2FA00000000006 /* APIEndpoints.swift */,
+				1392B1AC2E2FA00000000007 /* NetworkError.swift */,
+				1392B1AE2E2FA00000000008 /* NetworkLogger.swift */,
+				1392B1B02E2FA00000000009 /* NetworkService.swift */,
+				1392B1B22E2FA0000000000A /* SecretDecoder.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1392B1C82E2FA00000000017 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1C92E2FA00000000018 /* Resources */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1392B1C92E2FA00000000018 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1392B1BE2E2FA00000000010 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,9 +197,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1392B13F2E2CE6C000FADCE8 /* Cinemark */,
 			);
 			name = Cinemark;
 			packageProductDependencies = (
@@ -128,9 +218,6 @@
 			);
 			dependencies = (
 				1392B17C2E2D323C00FADCE8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1392B1782E2D323C00FADCE8 /* CinemarkTests */,
 			);
 			name = CinemarkTests;
 			packageProductDependencies = (
@@ -160,6 +247,7 @@
 				};
 			};
 			buildConfigurationList = 1392B1382E2CE6C000FADCE8 /* Build configuration list for PBXProject "Cinemark" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -171,7 +259,6 @@
 			packageReferences = (
 				133893342E2FA9D100EE46B4 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 1392B13E2E2CE6C000FADCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1392B1BF2E2FA00000000010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1392B1A12E2FA00000000001 /* CinemarkApp.swift in Sources */,
+				1392B1A32E2FA00000000002 /* Movie.swift in Sources */,
+				1392B1A52E2FA00000000003 /* Person.swift in Sources */,
+				1392B1A72E2FA00000000004 /* ResponseDTO.swift in Sources */,
+				1392B1A92E2FA00000000005 /* TV.swift in Sources */,
+				1392B1AB2E2FA00000000006 /* APIEndpoints.swift in Sources */,
+				1392B1AD2E2FA00000000007 /* NetworkError.swift in Sources */,
+				1392B1AF2E2FA00000000008 /* NetworkLogger.swift in Sources */,
+				1392B1B12E2FA00000000009 /* NetworkService.swift in Sources */,
+				1392B1B32E2FA0000000000A /* SecretDecoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1392B1B52E2FA0000000000B /* JSONLoader.swift in Sources */,
+				1392B1B72E2FA0000000000C /* MockNetworkService.swift in Sources */,
+				1392B1B92E2FA0000000000D /* PersonEndpointTests.swift in Sources */,
+				1392B1BB2E2FA0000000000E /* TVEndpointTests.swift in Sources */,
+				1392B1BD2E2FA0000000000F /* MovieEndpointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +351,6 @@
 /* Begin XCBuildConfiguration section */
 		1392B1462E2CE6C100FADCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 1392B13F2E2CE6C000FADCE8 /* Cinemark */;
-			baseConfigurationReferenceRelativePath = Core/Network/Secrets.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -302,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -361,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -373,8 +474,6 @@
 		};
 		1392B1492E2CE6C100FADCE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 1392B13F2E2CE6C000FADCE8 /* Cinemark */;
-			baseConfigurationReferenceRelativePath = Core/Network/Secrets.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,7 +553,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WVBG69A9A;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,7 +578,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9WVBG69A9A;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yuldshev.CinemarkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
